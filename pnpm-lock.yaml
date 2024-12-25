@@ -144,6 +144,9 @@ importers:
       '@radix-ui/themes':
         specifier: 3.1.4
         version: 3.1.4(@types/react-dom@19.0.0)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@samui-build/core':
+        specifier: workspace:*
+        version: link:../../packages/core
       '@samui-build/react':
         specifier: workspace:*
         version: link:../../packages/react
