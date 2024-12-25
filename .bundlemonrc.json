@@ -2,7 +2,7 @@
     "baseDir": "./packages/",
     "files": [
         {
-            "friendlyName": "@samui-ui/core production bundle",
+            "friendlyName": "@samui-build/core production bundle",
             "path": "core/dist/index.production.min.js"
         },
         {
