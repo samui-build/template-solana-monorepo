@@ -71,6 +71,7 @@
         "maintained node versions"
     ],
     "dependencies": {
+        "@samui-build/core": "workspace:*",
         "@solana/web3.js": "2"
     },
     "devDependencies": {

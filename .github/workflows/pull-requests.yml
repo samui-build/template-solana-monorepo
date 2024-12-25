@@ -62,5 +62,5 @@ jobs:
           include-hidden-files: true
           name: library-dist
           path: |
-            ./packages/library/dist/
-            ./packages/library/package.json
+            ./packages/core/dist/
+            ./packages/core/package.json

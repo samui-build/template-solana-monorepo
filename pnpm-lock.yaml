@@ -210,8 +210,20 @@ importers:
         specifier: ^17.1.1
         version: 17.1.1(@babel/preset-env@7.25.0(@babel/core@7.24.9))
 
+  packages/core:
+    dependencies:
+      '@solana/web3.js':
+        specifier: '2'
+        version: 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.7.2)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))
+      typescript:
+        specifier: '>=5'
+        version: 5.7.2
+
   packages/react:
     dependencies:
+      '@samui-build/core':
+        specifier: workspace:*
+        version: link:../core
       '@solana/web3.js':
         specifier: '2'
         version: 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.7.2)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))
