@@ -31,7 +31,7 @@ There are a few things to rename in this monorepo.
 - GitHub repo references: `samui-build/template-solana-monorepo` => `your-org-name/your-monorepo-name`
 - Enable [changeset-bot](https://github.com/apps/changeset-bot) and enable
   `Allow GitHub Actions to create and approve pull requests` for your GitHub organization.
-- Enable [BundleMon](https://github.com/organizations/samui-build/settings/installations/58793890) for the repo or
+- Enable [BundleMon](https://github.com/apps/bundlemon) for the repo or
   delete `.github/workflows/bundlesize.yml` and `.bundlemonrc.json`
 
 ## Commit and push
